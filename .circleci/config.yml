@@ -10,18 +10,18 @@ jobs:
       - node/with-cache:
         steps:
           - run:
-            name: Install project dependencies
-            command: npm install
+              name: Install project dependencies
+              command: npm install
           - run:
-            name: Run Lint
-            command: npm run lint
+              name: Run Lint
+              command: npm run lint
           - run:
-            name: Run Formatter (Check format)
-            command: npm run check-format:all
+              name: Run Formatter (Check format)
+              command: npm run check-format:all
           - run:
-            name: Build project
-            command: npm run build
+              name: Build project
+              command: npm run build
 workflows:
-  node-tests:
+  build-and-test:
     jobs:
-      - node/test
+      - build-and-test
