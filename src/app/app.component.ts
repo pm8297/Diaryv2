@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-demo-cicd';
+  constructor(){
+    var name = 'Title'
+  }
 }
