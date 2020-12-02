@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "format:all": "prettier --single-quote --check --write 'src/**/*.{ts,html,css}'",
-    "check-format:all" : "prettier --single-quote --check 'src/**/*.{ts,html,css}'"
+    "check-format:all": "prettier --single-quote --check 'src/**/*.{ts,html,css}'"
   },
   "private": true,
   "dependencies": {
